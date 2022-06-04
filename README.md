@@ -35,6 +35,7 @@ Nombre de las personas que an aportado algo al proyecto -->
     <code><img src="https://camo.githubusercontent.com/12c4402a62af1a832fe34f8f60d5494706dd433de5fe65c472d6fa66f0f5578e/687474703a2f2f677265656e736f636b2e636f6d2f5f696d672f6769746875622f7468756d622d7363726f6c6c747269676765722d736d616c6c2e676966" height="30"></img></code><!-- textillate -->
     <code><img src="https://m1.paperblog.com/i/170/1706558/textillatejs-animaciones-texto-usando-css3-L-RwyQR7.jpeg" height="32"></img></code><!-- animate -->
     <code><img src="https://www.drupaladicto.com/sites/drupaladicto/files/inline-images/pagina%20ofical%20animate%20css.PNG" height="32"></img></code>
+    <code><img src="https://i.postimg.cc/0QLfkqmD/pocoo-flask-ar21.png)](https://postimg.cc/jw4NcmMS" height="30" width="80"></img></code>
 
 ## Vista previa del proyecto
 <!-- <img src="project-preview.png" aling="center"></img> -->
