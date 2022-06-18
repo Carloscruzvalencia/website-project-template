@@ -1,16 +1,9 @@
 # Titulo del proyecto
 ## Inpiracion del proyecto & objetivo
 
-descripcion del proyectos
+-  
 
-Diseño creado en <a href="https://www.figma.com/file/kP0SJhf4iDDa9kAzsz1LM1/Github-projects?node-id=0%3A1">figma</a> por Carlos cruz valencia
-
-En el caso de que otra persona sirva de inspiracion o le proyecto sea de  otra persona
-
-añade los links de redes sociales
-
-<!-- ## Contribuyentes
-Nombre de las personas que an aportado algo al proyecto -->
+El diseño web es ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9kAzsz1LM1/Github-projects?node-id=0%3A1) por Carlos cruz valencia
 
 ## Tecnologias usadas
 - Ide
@@ -37,28 +30,29 @@ Nombre de las personas que an aportado algo al proyecto -->
     <code><img src="https://www.drupaladicto.com/sites/drupaladicto/files/inline-images/pagina%20ofical%20animate%20css.PNG" height="32"></img></code>
  <code><img src="https://i.postimg.cc/0QLfkqmD/pocoo-flask-ar21.png)](https://postimg.cc/jw4NcmMS" height="30" width="90"></img></code>
 
+
 ## Vista previa del proyecto
+`` vista no disponible``
 <!-- <img src="project-preview.png" aling="center"></img> -->
 <!-- <img src="project-preview.gif" aling="center"></img> -->
 ## Estado del proyecto
-<!-- <a href=""> En el caso de que el proyecto tenga trello</a> -->
-|             ESTADO                |             |
+|Trabajando en el proyecto|✔️| 
 | -------------------------- | :----------------: | 
-| Trabajando en el proyecto           |         ✔️  ❌    |  
-| Trabajando en otro proyecto          |         ✔️  ❌    |  
-| Arreglando bugs           |         ✔️  ❌    |
-| Cancelado           |         ✔️  ❌    |
-| Proyecto terminado           |         ✔️  ❌    | 
+|            Web responsive  |      ❌        |
+|           Hosting          |    |
+| Websever app online        |         ❌    |  
+| Dispone de trello          |         ❌    |  
+<details >
+<summary>⚙️Progreso del proyecto⚙️</summary>
 
-## web responsive
-|             ESTADO                |             |
-| -------------------------- | :----------------: | 
-| SI          |         ✔️  ❌    |  
-| NO          |         ✔️  ❌    |  
+1. Creacion de la pagina web
+    ![]()
+
+</details>
+
 
 ## Licencia
 Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md)  para mas detalles
-
 
 
 <!-- ## !codigo temporal¡
@@ -69,5 +63,5 @@ git add -A && git commit -a -m \"update\" && git push
 
 ## sass compiler code
 ```shell
-sass -w --style compressed assets/styles/sass/main.scss assets/styles/css/main.css
+sass -w --style compressed static/styles/sass/main.scss static/styles/css/main.css
 ``` -->
