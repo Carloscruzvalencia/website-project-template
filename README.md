@@ -1,11 +1,13 @@
 # Titulo del proyecto
+
 ## Inpiracion del proyecto & objetivo
 
 -  
 
-El diseño web es ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9kAzsz1LM1/Github-projects?node-id=0%3A1) por Carlos cruz valencia
+El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9kAzsz1LM1/Github-projects?node-id=0%3A1) por Carlos cruz valencia
 
 ## Tecnologias usadas
+
 - Ide
     <!-- visual studio code -->
     <code><img height="25" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"></code>
@@ -30,30 +32,74 @@ El diseño web es ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     <code><img src="https://www.drupaladicto.com/sites/drupaladicto/files/inline-images/pagina%20ofical%20animate%20css.PNG" height="32"></img></code>
  <code><img src="https://i.postimg.cc/0QLfkqmD/pocoo-flask-ar21.png)](https://postimg.cc/jw4NcmMS" height="30" width="90"></img></code>
 
-
 ## Vista previa del proyecto
-`` vista no disponible``
+
+``vista no disponible``
 <!-- <img src="project-preview.png" aling="center"></img> -->
 <!-- <img src="project-preview.gif" aling="center"></img> -->
+
 ## Estado del proyecto
-|Trabajando en el proyecto|✔️| 
-| -------------------------- | :----------------: | 
+
+|Trabajando en el proyecto|✔️|
+| -------------------------- | :----------------: |
 |            Web responsive  |      ❌        |
 |           Hosting          |    |
 | Websever app online        |         ❌    |  
 | Dispone de trello          |         ❌    |  
 <details >
-<summary>⚙️Progreso del proyecto⚙️</summary>
+<summary>⚙️ documentacion del proyecto ⚙️</summary>
 
 1. Creacion de la pagina web
     ![]()
 
 </details>
 
+<details >
+<summary>📁 Estructura de carpetas 📁</summary>
+
+```text
+/
+├── README.md
+├── Licence
+├── index.html
+└── assets/
+    ├── js/
+    │   └── app.js
+    └── media/
+    │    ├── img/
+    │    │   └── components/
+    │    │       ├── footer/
+    │    │       └── header/
+    │    └── layouts/
+    │    │   └── landing/
+    │    │   
+    │    │       
+    │    └── video/
+    │
+    │   
+    └── styles/
+        ├── css/
+        │   ├── main.css
+        │   └── main.css.map
+        └── sass/
+            ├── base/
+            │   └──_settings.scss
+            ├── components/
+            │   └──_menu.scss
+            ├── layouts/
+            │   └──_landing.scss
+            └── main.scss
+```
+
+</details>
+
+
+<!-- └── / ├── │ -->
+
 
 ## Licencia
-Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md)  para mas detalles
 
+Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md)  para mas detalles
 
 <!-- ## !codigo temporal¡
 ## git update code
@@ -65,3 +111,6 @@ git add -A && git commit -a -m \"update\" && git push
 ```shell
 sass -w --style compressed static/styles/sass/main.scss static/styles/css/main.css
 ``` -->
+
+<!-- emojis  -->
+<!-- https://tutorialmarkdown.com/emojis -->
