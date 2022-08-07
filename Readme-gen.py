@@ -58,16 +58,17 @@ print("4 si tienes mp4 de preview")
 
 preview = input("seleciona una opcion: ")
 
+
 if preview == "1":
     filedata = filedata.replace('{pPreview}',"``vista no disponible``")
 if preview == "2":
-    filedata = filedata.replace('{pPreview}', "![preview](./preview.png)")
+    filedata = filedata.replace('{pPreview}', "<img src=\"./preview.png\" width=\"100%\">")
 if preview == "3":
-    filedata = filedata.replace('{pPreview}', "![preview](./preview.gif)")
+    filedata = filedata.replace('{pPreview}', "<img src=\"./preview.gif\" width=\"100%\">")
 if preview == "4":
     videoClip = VideoFileClip("preview.mp4")
     videoClip.write_gif("project-preview.gif")
-    filedata = filedata.replace('{pPreview}', "![preview](./project-preview.gif)")
+    filedata = filedata.replace('{pPreview}', "<img src=\"./preview.gif\" width=\"100%\">")
 
 #project status
 
