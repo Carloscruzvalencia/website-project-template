@@ -16,21 +16,18 @@ Puedes visitar el proyecto en [Githubpages]({pUrl})
 
 ## Tecnologias usadas
 
-- Ide
-    <!-- visual studio code -->
-    <code><img height="25" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"></code>
+Ide
 
-- Programas usados
+<code><img height="25" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"></code>
 
-    <code><img height="30" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"></code>
+Programas usados
+
+<code><img height="30" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"></code>
     
-- lenguajes/frameworks usados
+lenguajes/frameworks usados
 
 {pLang}
 
-## Vista previa del proyecto
-
-{pPreview}
 
 ## Estado del proyecto
 
@@ -40,6 +37,12 @@ Puedes visitar el proyecto en [Githubpages]({pUrl})
 | Hosting                 |{st3}|
 | Hosting disponible      |{st4}|  
 | Dispone de trello       |{st5}| 
+
+## Vista previa del proyecto
+
+{pPreview}
+
+
 
 ## Licencia
 
