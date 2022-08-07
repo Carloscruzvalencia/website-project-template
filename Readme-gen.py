@@ -24,8 +24,8 @@ javascript = "<code><img height=\"30\" src=\"https://img.shields.io/badge/JavaSc
 python = "<code><img height=\"30\" src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\"></code>"
 scrolltrigger = "<code><img height=\"30\" src=\"https://img.shields.io/badge/ScrollTrigger-E34F26?style=for-the-badge&logo=scrolltrigger&logoColor=white\"></code>"
 botstrap = "<code><img height=\"30\" src=\"https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white\"></code>"
-
-list = ["salir = 0", "html = 1", "css =2", "sass =3", "javascript =4", "python =5", "ScrollTrigger =6", "Bootstrap =7"]
+spline = "<code><img height=\"30\" src=\"https://i.postimg.cc/85hR92yS/Group-71.png\"></code>"
+list = ["salir = 0", "html = 1", "css =2", "sass =3", "javascript =4", "python =5", "ScrollTrigger =6", "Bootstrap =7", "spline =8"]
 
 sel =   True
 
@@ -48,6 +48,8 @@ while sel == True:
         n = scrolltrigger
     if lang == "7":
         n = botstrap
+    if lang == "8":
+        n = spline
     if lang == "0":
         sel = False
         filedata = filedata.replace('{pLang}',"")
