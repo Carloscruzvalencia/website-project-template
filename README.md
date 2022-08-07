@@ -43,7 +43,7 @@ Puedes visitar el proyecto en [Githubpages]({pUrl})
 
 ## Licencia
 
-Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md)  para mas detalles
+Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](./LICENSE)  para mas detalles
 
 <!-- ## !codigo temporal¡
 ## git update code
