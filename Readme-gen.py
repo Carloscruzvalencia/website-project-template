@@ -1,3 +1,4 @@
+from ensurepip import bootstrap
 from moviepy.editor import VideoFileClip
 from os import system
 import webbrowser
@@ -22,8 +23,9 @@ sass = "<code><img height=\"30\" src=\"https://img.shields.io/badge/Sass-CC6699?
 javascript = "<code><img height=\"30\" src=\"https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E\"></img></code>"
 python = "<code><img height=\"30\" src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\"></code>"
 scrolltrigger = "<code><img height=\"30\" src=\"https://img.shields.io/badge/ScrollTrigger-E34F26?style=for-the-badge&logo=scrolltrigger&logoColor=white\"></code>"
+bootstrap = "<code><img height=\"30\" src=\"https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white\"></code>"
 
-list = ["salir = 0", "html = 1", "css =2", "sass =3", "javascript =4", "python =5", "ScrollTrigger =6"]
+list = ["salir = 0", "html = 1", "css =2", "sass =3", "javascript =4", "python =5", "ScrollTrigger =6", "Bootstrap =7"]
 
 sel =   True
 
@@ -44,6 +46,8 @@ while sel == True:
         n = python
     if lang == "6":
         n = scrolltrigger
+    if lang == "7":
+        n = bootstrap
     if lang == "0":
         sel = False
         filedata = filedata.replace('{pLang}',"")
