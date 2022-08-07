@@ -21,8 +21,9 @@ css = "<code><img height=\"30\" src=\"https://img.shields.io/badge/CSS3-1572B6?s
 sass = "<code><img height=\"30\" src=\"https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white\"></code>"
 javascript = "<code><img height=\"30\" src=\"https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E\"></img></code>"
 python = "<code><img height=\"30\" src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white\"></code>"
+scrolltrigger = "<code><img height=\"30\" src=\"https://img.shields.io/badge/ScrollTrigger-E34F26?style=for-the-badge&logo=scrolltrigger&logoColor=white\"></code>"
 
-list = ["html", "css", "sass", "javascript", "python"]
+list = ["salir = 0", "html = 1", "css =2", "sass =3", "javascript =4", "python =5", "ScrollTrigger =6"]
 
 sel =   True
 
@@ -31,17 +32,19 @@ while sel == True:
     print(list)
     print(n)
     lang = input("seleciona una opcion: ")
-    if lang == "0":
-        n = html 
     if lang == "1":
-        n = css
+        n = html 
     if lang == "2":
-        n = sass
+        n = css
     if lang == "3":
-        n = javascript
+        n = sass
     if lang == "4":
-        n = python
+        n = javascript
     if lang == "5":
+        n = python
+    if lang == "6":
+        n = scrolltrigger
+    if lang == "0":
         sel = False
         filedata = filedata.replace('{pLang}',"")
 
