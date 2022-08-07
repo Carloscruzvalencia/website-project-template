@@ -2,7 +2,7 @@ from moviepy.editor import VideoFileClip
 from os import system
 import webbrowser
 
-with open('test.md', 'r') as file :
+with open('README.md', 'r') as file :
   filedata = file.read()
 
 pTitle = input("Nombre del proyecto: ") # Nombre del proyecto
@@ -46,7 +46,7 @@ while sel == True:
         filedata = filedata.replace('{pLang}',"")
 
     filedata = filedata.replace('{pLang}', n + "{pLang}")
-    with open('test.md', 'w') as file:
+    with open('README.md', 'w') as file:
         file.write(filedata)
 
 #vista previa del proyecto
@@ -100,7 +100,7 @@ if status == "si":
 else:
     filedata = filedata.replace('{st5}', ":x:")
 
-with open('test.md', 'w') as file:
+with open('README.md', 'w') as file:
     file.write(filedata)
 
 system("git add -A && git commit -a -m \"update\" && git push")
