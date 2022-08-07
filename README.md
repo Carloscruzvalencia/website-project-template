@@ -46,6 +46,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 |           Hosting          |    |
 | Websever app online        |         ❌    |  
 | Dispone de trello          |         ❌    |  
+
 <details >
 <summary>⚙️ documentacion del proyecto ⚙️</summary>
 
