@@ -102,6 +102,5 @@ else:
 
 with open('README.md', 'w') as file:
     file.write(filedata)
-
-system("git pull && git add -A && git commit -a -m \"update\" && git push")
+system("DEL Readme-gen.py && git pull && git add -A && git commit -a -m \"update\" && git push")
 webbrowser.open("https://github.com/Carloscruzvalencia/"+ pTitle + "#readme")
