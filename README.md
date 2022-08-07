@@ -17,13 +17,13 @@ Puedes visitar el proyecto en [Githubpages]({pUrl})
 ## Tecnologias usadas
 
 - Ide
-
-<code><img height="25" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20codelogoColor=white"></code>
+    <!-- visual studio code -->
+    <code><img height="25" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"></code>
 
 - Programas usados
-- 
-    <code><img height="30" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"></code>
 
+    <code><img height="30" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"></code>
+    
 - lenguajes/frameworks usados
 
 {pLang}
