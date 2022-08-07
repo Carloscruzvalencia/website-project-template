@@ -42,8 +42,6 @@ lenguajes/frameworks usados
 
 {pPreview}
 
-
-
 ## Licencia
 
 Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](./LICENSE)  para mas detalles
