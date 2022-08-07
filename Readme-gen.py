@@ -1,5 +1,3 @@
-from ensurepip import bootstrap
-from moviepy.editor import VideoFileClip
 from os import system
 import webbrowser
 
@@ -63,7 +61,6 @@ while sel == True:
 print("1 si no tienes imagen de preview")
 print("2 si tienes imagen de preview")
 print("3 si tienes gif de preview")
-print("4 si tienes mp4 de preview")
 
 preview = input("seleciona una opcion: ")
 
@@ -73,10 +70,6 @@ if preview == "1":
 if preview == "2":
     filedata = filedata.replace('{pPreview}', "<img src=\"./preview.png\" width=\"100%\">")
 if preview == "3":
-    filedata = filedata.replace('{pPreview}', "<img src=\"./preview.gif\" width=\"100%\">")
-if preview == "4":
-    videoClip = VideoFileClip("preview.mp4")
-    videoClip.write_gif("project-preview.gif")
     filedata = filedata.replace('{pPreview}', "<img src=\"./preview.gif\" width=\"100%\">")
 
 #project status
@@ -89,6 +82,8 @@ else:
 status = input("es responsive: ")
 if status == "si":
     filedata = filedata.replace('{st2}', ":heavy_check_mark:")
+elif status == "sn":
+    filedata = filedata.replace('{st2}', "Parcialmente")
 else:
     filedata = filedata.replace('{st2}', ":x:")
 status = input("tiene hosting: ")
