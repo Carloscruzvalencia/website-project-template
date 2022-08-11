@@ -105,6 +105,8 @@ if status == "si":
 else:
     filedata = filedata.replace('{st5}', ":x:")
 
+
+
 with open('README.md', 'w') as file:
     file.write(filedata)
 system("DEL Readme-gen.py && git pull && git add -A && git commit -a -m \"update\" && git push")
