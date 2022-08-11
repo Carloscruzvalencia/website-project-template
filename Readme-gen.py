@@ -13,8 +13,7 @@ filedata = filedata.replace('{pDesc}', pDesc)
 pUrl = "https://carloscruzvalencia.github.io/" + pTitle # Url del proyecto
 filedata = filedata.replace('{pUrl}', pUrl)
 
-# #lenguajes del proyecto
-
+#lenguajes del proyecto
 html = "<code><img height=\"30\" src=\"https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white\"></code>"
 css = "<code><img height=\"30\" src=\"https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white\"></code>"
 sass = "<code><img height=\"30\" src=\"https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white\"></code>"
@@ -23,32 +22,29 @@ python = "<code><img height=\"30\" src=\"https://img.shields.io/badge/Python-377
 scrolltrigger = "<code><img height=\"30\" src=\"https://img.shields.io/badge/ScrollTrigger-E34F26?style=for-the-badge&logo=scrolltrigger&logoColor=white\"></code>"
 botstrap = "<code><img height=\"30\" src=\"https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white\"></code>"
 spline = "<code><img height=\"30\" src=\"https://i.postimg.cc/85hR92yS/Group-71.png\"></code>"
+
 list = ["salir = 0", "html = 1", "css =2", "sass =3", "javascript =4", "python =5", "ScrollTrigger =6", "Bootstrap =7", "spline =8"]
-
 sel =   True
-
-n = ""
 while sel == True:
     print(list)
-    print(n)
     lang = input("seleciona una opcion: ")
     if lang == "1":
         n = html 
-    if lang == "2":
+    elif lang == "2":
         n = css
-    if lang == "3":
+    elif lang == "3":
         n = sass
-    if lang == "4":
+    elif lang == "4":
         n = javascript
-    if lang == "5":
+    elif lang == "5":
         n = python
-    if lang == "6":
+    elif lang == "6":
         n = scrolltrigger
-    if lang == "7":
+    elif lang == "7":
         n = botstrap
-    if lang == "8":
+    elif lang == "8":
         n = spline
-    if lang == "0":
+    else:
         sel = False
         filedata = filedata.replace('{pLang}',"")
 
@@ -57,14 +53,11 @@ while sel == True:
         file.write(filedata)
 
 #vista previa del proyecto
-
 print("1 si no tienes imagen de preview")
 print("2 si tienes imagen de preview")
 print("3 si tienes gif de preview")
 
 preview = input("seleciona una opcion: ")
-
-
 if preview == "1":
     filedata = filedata.replace('{pPreview}',"``vista no disponible``")
 if preview == "2":
@@ -73,7 +66,6 @@ if preview == "3":
     filedata = filedata.replace('{pPreview}', "<img src=\"./preview.gif\" width=\"100%\">")
 
 #project status
-
 status = input("estas Trabajando en el proyecto: ")
 if status == "si":
     filedata = filedata.replace('{st1}', ":heavy_check_mark:")
@@ -105,9 +97,12 @@ if status == "si":
 else:
     filedata = filedata.replace('{st5}', ":x:")
 
-
-
 with open('README.md', 'w') as file:
     file.write(filedata)
 system("DEL Readme-gen.py && git pull && git add -A && git commit -a -m \"update\" && git push")
 webbrowser.open("https://github.com/Carloscruzvalencia/"+ pTitle + "#readme")
+
+
+
+
+
