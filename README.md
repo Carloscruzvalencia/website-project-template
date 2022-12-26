@@ -1,21 +1,4 @@
-# :bangbang: Working on the project :bangbang:
-
-there well be no updates on main branch until a mayor progres on the project until the moment all the updates will stay in the development branch.
-
-  ```mermaid
-    gitGraph
-       checkout main
-       commit id: "First commit"
-       branch development
-       commit id: "Project updates"
-       commit id: "Latest update to the project"
-  ```
-    
-:bangbang: if you want to know what im doign change to the branch development :bangbang:
-
-<img height="" src="git-branch.png">
-
-<!-- # {pTitle}
+# {pTitle}
 
 ## Inpiracion del proyecto & objetivo
 
@@ -60,4 +43,4 @@ lenguajes/frameworks usados
 
 Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](./LICENSE) para mas detalles
 
-Este ```README.md``` se a generado con [Readme-gen.py](https://github.com/Carloscruzvalencia/website-project-template/blob/main/Readme-gen.py) -->
+Este ```README.md``` se a generado con [Readme-gen.py](https://github.com/Carloscruzvalencia/website-project-template/blob/main/Readme-gen.py)
