@@ -1,6 +1,8 @@
-# Working on the project
+# :bangbang: Working on the project :bangbang:
 
 :bangbang: if you want to know what im doign change to the branch development :bangbang:
+
+<img height="" src="git-branch.png">
 
 there well be no updates on main branch until a mayor progres on the project until the moment all the updates will stay in the development branch.
 
@@ -12,11 +14,6 @@ there well be no updates on main branch until a mayor progres on the project unt
        commit id: "Project updates"
        commit id: "Latest update to the project"
   ```
-
-:bangbang: check other branches to se what im working on  :bangbang:
-
-
-
 <!-- # {pTitle}
 
 ## Inpiracion del proyecto & objetivo
