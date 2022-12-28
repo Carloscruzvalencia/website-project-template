@@ -82,14 +82,18 @@ with open('README.md', 'r') as file:
 
 # Project status
 status = ['Estas trabajando en el proyecto: ','Es responsive: ','Tiene hosting: ']
-loop = 0
-while loop < 3:
-    opt = input(status[loop])
+while len(status) > 0:
+    opt = input(status[0])
 
-    loop += 1
+    if opt == "si":
+        filedata = filedata.replace('|?|', ":heavy_check_mark:")
+    
 
-if status == "si":
-    filedata = filedata.replace('{st1}', ":heavy_check_mark:")
+    status.pop(0)
+
+print("fuera")
+
+    # loop += 1
 # else:
 #     filedata = filedata.replace('{st1}', ":x:")
 # if status == "si":
@@ -119,7 +123,7 @@ if status == "si":
 # if preview == "3":
 #     filedata = filedata.replace(
 #         '{pPreview}', "<img src=\"./preview.gif\" width=\"100%\">")
-# with open('README.md', 'w') as file:
-#     file.write(filedata)
+with open('README.md', 'w') as file:
+    file.write(filedata)
 # system("DEL Readme-gen.py && git pull && git add -A && git commit -a -m \"update\" && git push")
 # webbrowser.open("https://github.com/Carloscruzvalencia/"+ pTitle + "#readme")
