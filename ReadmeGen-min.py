@@ -28,4 +28,4 @@ if preview=="1":filedata=filedata.replace('{pPreview}',"``vista no disponible``"
 if preview=="2":filedata=filedata.replace('{pPreview}',"<img src=\"./preview.png\" width=\"100%\">")
 if preview=="3":filedata=filedata.replace('{pPreview}',"<img src=\"./preview.gif\" width=\"100%\">")
 with open('README.md','w') as file:file.write(filedata)
-# system("DEL Readme-gen.py && git pull && git add -A && git commit -a -m \"update\" && git push");webbrowser.open("https://github.com/Carloscruzvalencia/"+pTitle+"#readme")
+system("DEL Readme-gen.py && git pull && git add -A && git commit -a -m \"update\" && git push");webbrowser.open("https://github.com/Carloscruzvalencia/"+pTitle+"#readme")
