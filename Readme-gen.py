@@ -85,11 +85,11 @@ status = ['Estas trabajando en el proyecto: ','Es responsive: ','Tiene hosting: 
 loop = 0
 while loop < 3:
     opt = input(status[loop])
-    
+
     loop += 1
 
-# if status == "si":
-#     filedata = filedata.replace('{st1}', ":heavy_check_mark:")
+if status == "si":
+    filedata = filedata.replace('{st1}', ":heavy_check_mark:")
 # else:
 #     filedata = filedata.replace('{st1}', ":x:")
 # if status == "si":
