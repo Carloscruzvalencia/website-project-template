@@ -84,10 +84,7 @@ with open('README.md', 'r') as file:
 status = ['Estas trabajando en el proyecto: ','Es responsive: ','Tiene hosting: ']
 while len(status) > 0:
     opt = input(status[0])
-
     st = str(len(status))
-    print('{st'+st+'}')
-
     if opt == "si":
         if "hosting" in status[0]:
             filedata = filedata.replace('{st'+st+'}', "GithubPages")
@@ -98,23 +95,6 @@ while len(status) > 0:
     status.pop(0)
     with open('README.md', 'w') as file:
         file.write(filedata)
-
-
-    # loop += 1
-
-# if status == "si":
-#     filedata = filedata.replace('{st2}', ":heavy_check_mark:")
-# elif status == "sn":
-#     filedata = filedata.replace('{st2}', "Parcialmente")
-# else:
-#     filedata = filedata.replace('{st2}', ":x:")
-# if status == "si":
-#     filedata = filedata.replace('{st3}', "GithubPages")
-# elif status == "otro":
-#     host = input("ingresa el hosting: ")
-#     filedata = filedata.replace('{st3}', host)
-# else:
-#     filedata = filedata.replace('{st3}', ":x:")
 # print("\n")
 # print("Project preview")
 # print("1 si no tienes imagen de preview")
