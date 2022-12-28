@@ -85,17 +85,23 @@ status = ['Estas trabajando en el proyecto: ','Es responsive: ','Tiene hosting: 
 while len(status) > 0:
     opt = input(status[0])
 
+    st = str(len(status))
+    print('{st'+st+'}')
+
     if opt == "si":
-        filedata = filedata.replace('|?|', ":heavy_check_mark:")
-    
-
+        if "hosting" in status[0]:
+            filedata = filedata.replace('{st'+st+'}', "GithubPages")
+        else:
+            filedata = filedata.replace('{st'+st+'}', ":heavy_check_mark:")
+    else:
+        filedata = filedata.replace('{st'+st+'}', ":x:")
     status.pop(0)
+    with open('README.md', 'w') as file:
+        file.write(filedata)
 
-print("fuera")
 
     # loop += 1
-# else:
-#     filedata = filedata.replace('{st1}', ":x:")
+
 # if status == "si":
 #     filedata = filedata.replace('{st2}', ":heavy_check_mark:")
 # elif status == "sn":

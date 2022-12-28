@@ -29,10 +29,10 @@ lenguajes/frameworks usados
 
 
 ## Estado del proyecto
-|Trabajando en el proyecto||?||
+|Trabajando en el proyecto|{st3}|
 | -------------------------- | :----------------: |
-| Web responsive          ||?||
-| Hosting                 ||?||
+| Web responsive          |{st2}|
+| Hosting                 |{st1}|
 
 ## Vista previa del proyecto
 
