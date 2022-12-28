@@ -3,12 +3,8 @@ with open('README.md','r')as file:filedata=file.read();pTitle=input("Nombre del 
 while loop:
     num=0
     for i in langArray:print(f"{num}-{i}");num+=1
-    try:
-        opt=int(input("seleciona una opcion: "))
-        print(nsp)
-    except ValueError:
-        print("Please input integer only...")
-        continue
+    try:opt=int(input("seleciona una opcion: "));print(nsp)
+    except ValueError:print("Please input integer only...");continue
     if len(langArray)==1 or opt==0:loop=False
     elif opt>len(langArray)-1:print(f'{WARNING} !!Numero no valido¡¡ {nsp} {ENDC}')
     else:n=langUrlArray[opt];filedata=filedata.replace('{pLang}',n+"{pLang}");langArray.pop(opt);langUrlArray.pop(opt)
