@@ -59,4 +59,4 @@ lenguajes/frameworks usados
 
 Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](./LICENSE) para mas detalles
 
-Este ```README.md``` se a generado con [Readme-gen.py](https://github.com/Carloscruzvalencia/website-project-template/blob/main/Readme-gen.py) -->
+Este ```README.md``` se a generado con [Readme-gen.py](https://github.com/Carloscruzvalencia/website-project-template/blob/main/ReadmeGen-min.py) -->
